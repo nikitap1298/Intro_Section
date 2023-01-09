@@ -1,0 +1,52 @@
+/* Tag Selectors */
+body {
+  background-color: #fafafa;
+}
+
+/* Class Selectors */
+.topnav {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topnav-items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-bar-title {
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-bar-buttons {
+  margin-left: 2.5rem;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.nav-bar-buttons:hover {
+  /* background-color: #ddd; */
+  color: black;
+}
+
+.login-register-buttons {
+  margin-right: 1.5rem;
+  color: hsl(0, 0%, 41%);
+  font-family: "Epilogue";
+  font-weight: 500;
+  font-size: 0.9rem;
+  background: none;
+  border-width: 1.8px;
+  border-radius: 10px;
+  border-color: hsl(0, 0%, 8%);
+}
