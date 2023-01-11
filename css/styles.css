@@ -102,7 +102,7 @@ body {
 
 /* Landing Page Container */
 .landing-page-container {
-  margin: 70px 0px 0 120px;
+  margin: 70px 120px 0 120px;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
