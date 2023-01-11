@@ -97,6 +97,7 @@ body {
   border-width: 1.8px;
   border-radius: 10px;
   border-color: hsl(0, 0%, 41%);
+  cursor: pointer;
 }
 
 /* Landing Page Container */
@@ -127,7 +128,8 @@ body {
   font-family: "Epilogue";
   font-weight: 500;
   font-size: 1rem;
-  color: hsl(0, 0%, 41%)
+  color: hsl(0, 0%, 41%);
+  line-height: 200%;
 }
 
 .button-landing {
@@ -141,6 +143,7 @@ body {
   height: 45px;
   border-radius: 10px;
   border-color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
 
 .client-images-container {
