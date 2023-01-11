@@ -92,7 +92,62 @@ body {
   font-weight: 500;
   font-size: 0.9rem;
   background: none;
+  width: 100px;
+  border-style: solid;
   border-width: 1.8px;
   border-radius: 10px;
+  border-color: hsl(0, 0%, 41%);
+}
+
+/* Landing Page Container */
+.landing-page-container {
+  margin: 70px 0px 0 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.text-and-buttons-and-images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h1-landing {
+  margin: 110px 0 0 0;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: hsl(0, 0%, 8%)
+}
+
+.p-landing {
+  margin: 50px 0 0 0;
+  font-family: "Epilogue";
+  font-weight: 500;
+  font-size: 1rem;
+  color: hsl(0, 0%, 41%)
+}
+
+.button-landing {
+  margin: 50px 0 0 0;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 8%);
+  color: #fafafa;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
   border-color: hsl(0, 0%, 8%);
+}
+
+.client-images-container {
+  display: flex;
+  align-items: center;
+}
+
+.client-images {
+  margin-right: 40px;
 }
